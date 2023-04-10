@@ -30,12 +30,6 @@
     margin:0 auto;
 }
 
-body{
-    background: linear-gradient(to bottom left, rgba(48, 35, 175, 1), rgba(200, 109, 215, 1));
-    background-repeat: no-repeat;
-
-    height: 768px;
-}
 /* - - - - - - - - - - - - - - - - - - - - - - - - - - - -Header - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
 header{
     width: 100%;
@@ -168,17 +162,28 @@ button#buttonbanner{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-
-    position: absolute;
-    right: 250px;
-    top: 260px;
 }
 
 img#notebook{
     width: 884px;
     height: 576px;
+}
 
-    position: relative;
-    top: 102px;
-    left: 250px;
+.banner{
+    width: 1420px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row-reverse;
+
+    position: absolute;
+    top: 192px;
+    right: calc(50% - 712px);
+}
+
+.banner-cont {
+    width: 100%;
+    height: 768px;
+    background: linear-gradient(224.72deg, #3023AE -1%, #C86DD7 100.5%);
 }
