@@ -5,6 +5,10 @@
 }
 @font-face {
     font-family: SounsSans-Regular;
+    src: url(../assets/fonts/Source_Sans_Pro/SourceSansPro-Light.ttf);
+}
+@font-face {
+    font-family: SounsSans-Regular2;
     src: url(../assets/fonts/Source_Sans_Pro/SourceSansPro-Regular.ttf);
 }
 @font-face {
@@ -220,4 +224,114 @@ img#notebook{
 
     justify-content: space-around;
 
+}
+
+#tittleAbout{
+    font-family: Poppins;
+    font-size: 24px;
+}
+
+#pAbout{
+    font-family: SounsSans-Regular;
+    font-size: 16px;
+
+    color: #333333;
+}
+
+/* * * * * * * * * * * * Section productsSearch * * * * * * * * * * * * */
+
+.productsSearch{
+    background-color: #FFFFFF;
+
+    height: 770px;
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.titllePSearch{
+    margin-top: 75px;
+
+    height: 200px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#h3PSearch{
+    font-family: Poppins;
+    font-size: 16px;
+
+    color: #333333;
+}
+
+#h1PSearch{
+    font-family: Poppins;
+    font-size: 56px;
+
+    color: #333333;
+}
+
+#pPSearch{
+    font-family: SounsSans-Regular;
+    font-size: 16px;
+
+    color: #333333;
+
+    text-align: center;
+}
+
+.products{
+    display: flex;
+    flex-direction: row;
+}
+
+thead tr{
+    height: 200px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+thead tr th a{
+    font-family: SounsSans-Regular;
+    font-size: 16px;
+
+    color: #969595;
+
+    text-decoration: none;
+}
+
+#lastofthypea{
+    font-family: SounsSans-Regular2;
+    font-size: 16px;
+
+    color: #333333;
+
+    text-decoration: none;
+}
+
+.products{
+    width: 100%;
+
+    margin-top: 75px;
+
+    display: flex;
+    justify-content: space-around;
+}
+
+.product1,
+.product2,
+.product3,
+.product4{
+    height: 380px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
