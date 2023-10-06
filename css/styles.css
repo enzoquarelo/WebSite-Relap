@@ -96,6 +96,10 @@ nav a{
     text-decoration: none;
 }
 
+nav a:hover{
+    color: #ffd64e;
+}
+
 a img{
     width: 20px;
     height: 20px;
@@ -307,6 +311,13 @@ thead tr th a{
     text-decoration: none;
 }
 
+thead tr th a:hover{
+    font-family: SounsSans-SemiBold;
+    font-size: 16px;
+
+    color: #7746C1;
+}
+
 #lastofthypea{
     font-family: SounsSans-Regular2;
     font-size: 16px;
@@ -314,6 +325,10 @@ thead tr th a{
     color: #333333;
 
     text-decoration: none;
+}
+
+#lastofthypea:hover{
+    color: #7746C1;
 }
 
 .products{
