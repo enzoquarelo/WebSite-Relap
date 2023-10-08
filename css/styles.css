@@ -350,3 +350,172 @@ thead tr th a:hover{
     flex-direction: column;
     align-items: center;
 }
+
+/* * * * * * * * * * * * ProductsRecomendeds * * * * * * * * * * * */
+
+.productsRecomended{
+    background-color: #FDF2FF;
+
+    width: 100%;
+    height: 768px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#h3Shop{
+    font-family: Poppins;
+    font-size: 16px;
+
+    color: #333333;
+}
+
+#h1Shop{
+    font-family: Poppins;
+    font-size: 56px;
+
+    color: #333333;
+}
+
+#boxRecomendeds1
+{
+    background-color: white;
+
+    width: 370px;
+    height: 480px;
+
+    display: flex;
+    flex-direction: column;
+
+    justify-content: space-between;
+}
+
+#boxRecomendeds2
+{
+    background-color: white;
+
+    width: 370px;
+    height: 224px;
+
+    display: flex;
+    flex-direction: column;
+
+    justify-content: space-between;
+}
+
+#young_iphones{
+    width: 300px;
+    height: 180px;
+
+    position: relative;
+    left: 68px;
+    bottom: 43px;
+
+    z-index: 1;
+}
+
+#boxRecomendeds3
+{
+    background-color: white;
+
+    width: 370px;
+    height: 224px;
+}
+
+#boxRecomendeds4
+{
+    background-color: white;
+
+    width: 770px;
+    height: 224px;
+
+    margin-top: 22px;
+}
+
+.boxText
+{
+    width: 280px;
+    height: 65px;
+
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+.boxText_2
+{
+    width: 280px;
+    height: 65px;
+
+    margin-left: 30px;
+    margin-top: 30px;
+
+    position: relative;
+    z-index: 2;
+}
+
+.productsShop{
+    width: 100%;
+    height: 645px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.boxProducts{
+    width: 1200px;
+    height: 480px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.boxProducts_wrap{
+    width: 770px;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.titllePShop{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h4{
+    font-family: Poppins;
+    font-size: 24px;
+
+    color: #333333;
+}
+
+p{
+    font-family: SounsSans-Regular2;
+    font-size: 16px;
+
+    color: #969595;
+}
+
+button{
+    border: 2px solid #C86DD7;
+
+    border-radius: 24px;
+
+    width: 170px;
+    height: 48px;
+
+    background-color: transparent;
+
+    color: #C86DD7;
+
+    font-family: SounsSans-Bold;
+    font-size: 16px;
+
+    margin-left: 30px;
+}
