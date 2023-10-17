@@ -389,6 +389,12 @@ thead tr th a:hover{
     flex-direction: column;
 
     justify-content: space-between;
+
+    transition: transform 0.2s;
+}
+
+#boxRecomendeds1:hover {
+    transform: scale(1.1); /* Quando o mouse estiver sobre o elemento, aumenta o tamanho em 10% */
 }
 
 #boxRecomendeds2
@@ -403,6 +409,11 @@ thead tr th a:hover{
     align-items: flex-end;
     justify-content: right;
 
+    transition: transform 0.2s;
+}
+
+#boxRecomendeds2:hover {
+    transform: scale(1.1); /* Quando o mouse estiver sobre o elemento, aumenta o tamanho em 10% */
 }
 
 #young_iphones{
@@ -428,6 +439,11 @@ thead tr th a:hover{
     flex-wrap: wrap;
     align-items: flex-end;
     justify-content: right;
+    transition: transform 0.2s;
+}
+
+#boxRecomendeds3:hover {
+    transform: scale(1.1); /* Quando o mouse estiver sobre o elemento, aumenta o tamanho em 10% */
 }
 
 .boxText_3{
@@ -459,6 +475,12 @@ thead tr th a:hover{
     flex-wrap: wrap;
     align-items: flex-end;
     justify-content: right;
+
+    transition: transform 0.2s;
+}
+
+#boxRecomendeds4:hover {
+    transform: scale(1.1); /* Quando o mouse estiver sobre o elemento, aumenta o tamanho em 10% */
 }
 
 .boxText_4{
