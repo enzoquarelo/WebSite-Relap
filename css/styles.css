@@ -602,3 +602,113 @@ thead tr th a:hover{
 
     margin-left: 28px;
 }
+
+/* * * * * * * * * * * buyProducts * * * * * * * * */
+
+.buyProducts{
+    width: 100%;
+    height: 768px;
+
+    background-color: #FFFFFF;
+
+    display: flex;
+    align-items: center;
+}
+
+.tittleBoxBuySection{
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.tittleBuySection{
+    font-family: Poppins;
+    font-size: 56px;  
+}
+
+.navBuySection{
+    width: 410px;
+
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#aBuySection{
+    color: #333333;
+
+    font-family: SounsSans-SemiBold;
+    font-size: 16px;
+}
+
+#aBuySection:hover{
+    color: #C86DD7;
+
+    font-family: SounsSans-SemiBold;
+    font-size: 16px;
+}
+
+.articlesBuySection{
+    border:  1px solid red;
+
+    width: 100%;
+    height: 535px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+img{
+    width: 10px;
+    height: 10px;
+}
+
+.boxBuySection1,
+.boxBuySection2,
+.boxBuySection3,
+.boxBuySection4{
+    background-color: white;
+
+    width: 270px;
+    height: 432px;
+
+    filter: drop-shadow(8px 6px 8px #5b565c7a);
+
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+}
+
+h4{
+    font-family: SounsSans-Bold;
+    font-size: 24px;
+}
+
+p{
+    font-family: SounsSans-SemiBold;
+    font-size: 16px;
+
+    color: black;
+}
+
+#buy_iconButton{
+    width: 48px;
+    height: 48px;
+
+    border: 1px solid #C86DD7;
+    border-radius: 24px;
+
+    background-color: transparent;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#buy_iconButtonIMG{
+    width: 24px;
+    height: 18px;
+}
